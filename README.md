@@ -10,13 +10,19 @@ Talking avatars Heads for the IF_AI tools integrates dreamtalk in ComfyUI
   
   ![SystemPropertiesAdvanced_bpfdyGq1u6](https://github.com/if-ai/ComfyUI-IF_AI_tools/assets/21185218/a3b311c7-f266-42f2-aeaf-30990a26eb2c)
 
-  for Linux
+  for Linux 
+  Thanks at @dlandry 
   
-      ```bash
+      ```bash     
+        sudo apt install cmake
+        sudo apt install libopenblas-dev
+        sudo apt install build-essential
         sudo apt update
         sudo apt install ffmpeg
         open -e ~/.bash_profile
         export PATH="/usr/local/bin:$PATH"
+        pip install cmake
+        pip install dlib.
         ```
 
   Donwload the Dreamtalk models to your ComfyUI models folder should look like this /ComfyUI/models/dreamtalk/checkpoints/
