@@ -2,7 +2,7 @@
 name = "comfyui-if_ai_dreamtalk"
 description = "Talking avatars Heads for the IF_AI tools integrates dreamtalk in ComfyUI"
 version = "1.0.0"
-license = "LICENSE"
+license = { file = "MIT License" }
 dependencies = ["accelerate", "torchaudio", "Pillow", "requests", "opencv-python", "moviepy", "scipy", "scikit-image", "scikit-learn", "numpy", "yacs", "PyYAML", "imageio", "ffmpeg-python", "av"]
 
 [project.urls]
@@ -11,5 +11,5 @@ Repository = "https://github.com/if-ai/ComfyUI-IF_AI_Dreamtalk"
 
 [tool.comfy]
 PublisherId = "impactframes"
-DisplayName = "ComfyUI-IF_AI_Dreamtalk"
-Icon = "💥🎞️"
+DisplayName = "IF_Dreamtalk"
+Icon = "https://impactframes.ai/System/Icons/48x48/if.png"
