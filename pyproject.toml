@@ -1,7 +1,7 @@
 [project]
 name = "comfyui-if_ai_dreamtalk"
 description = "Talking avatars Heads for the IF_AI tools integrates dreamtalk in ComfyUI"
-version = "1.0.1"
+version = "1.0.2"
 license = { file = "MIT License" }
 dependencies = ["accelerate", "torchaudio", "Pillow", "requests", "opencv-python", "moviepy", "scipy", "scikit-image", "scikit-learn", "numpy", "yacs", "PyYAML", "imageio", "ffmpeg-python", "av"]
 
